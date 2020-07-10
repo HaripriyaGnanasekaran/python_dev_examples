@@ -12,3 +12,8 @@ print(df)
 keys should be immutable in dictionary. (TypeError occurs unless)
 key has to unique. (overwritten otherwise)
 '''
+
+# some dictionary methods
+print(dictionary.keys())
+print(dictionary.get('username'))
+print(dictionary.values())
