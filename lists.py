@@ -34,3 +34,6 @@ print(basket)
 # 6. empty the basket
 basket.clear()
 print(basket)
+
+one, *rest, end = list(range(101))
+print(rest)
