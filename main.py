@@ -3,4 +3,6 @@
 #import lists
 #import dictionary
 #import tuple
-import sets
+#import sets
+#import shortcircuit
+import palindrome
