@@ -7,3 +7,4 @@
 #import shortcircuit
 #import palindrome
 import trickycounter
+#import stock

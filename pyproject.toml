@@ -6,7 +6,7 @@ authors = ["repl.it user <replituser@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pandas = "^1.0.5"
+stock-quote-cli = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
