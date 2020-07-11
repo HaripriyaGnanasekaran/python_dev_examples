@@ -5,4 +5,5 @@
 #import tuple
 #import sets
 #import shortcircuit
-import palindrome
+#import palindrome
+import trickycounter
