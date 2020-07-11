@@ -6,5 +6,5 @@
 #import sets
 #import shortcircuit
 #import palindrome
-import trickycounter
-#import stock
+#import trickycounter
+import infty

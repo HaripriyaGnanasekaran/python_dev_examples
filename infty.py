@@ -1,0 +1,38 @@
+i=0
+while i<500:
+  if i%2==0:
+    print('/\___/\\')
+    print('|     |')
+    print('|0   0|')
+    print('|  i  |')
+    print('|  U  |')
+    print('|_____|')
+    print('   ||  ')
+    print('   ||  ')
+    print('   ||\  ')
+    print('   || \ ')
+    print('   ||  \ ')
+    print('   ||  ')
+    print('   ||  ')
+    print('  / |  ')
+    print(' /  |  ')
+    print('/   |  ')
+  else:
+    print('/\___/\\')
+    print('|     | ')
+    print('|0   0|')
+    print('|  i  |')
+    print('|  U  |')
+    print('|_____|')
+    print('   ||  ')
+    print('   ||  ')
+    print('   ||\  ')
+    print('   || \ ')
+    print('   ||  \ ')
+    print('   ||  ')
+    print('   ||  ')
+    print('   | \  ')
+    print('   |  \  ')
+    print('   |   \ ')
+  
+  i+=0
