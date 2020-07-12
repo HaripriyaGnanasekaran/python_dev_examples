@@ -8,4 +8,7 @@
 #import palindrome
 #import trickycounter
 #import infty
-import tree
+#import tree
+import advanced.functions as fn
+
+fn.printer('Ram', ' :) ')
