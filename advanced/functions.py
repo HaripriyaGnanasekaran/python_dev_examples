@@ -28,8 +28,14 @@ def highest_even(x):
     Check if the iterable can be made integer
     If contains float always return floats are never odd or even etc.
   '''
-  num=0
-  for item in x:
-    if even(item) and item > num:
-      num=item
-  return num
+  try:
+    num=0
+    for item in x:
+      integer = int(item)
+      if even(integer) and integer > num:
+        num=integer
+    return num
+  except:
+    return ('What have you done! List items can not be made into integers') 
+
+  
