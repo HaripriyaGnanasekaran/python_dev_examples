@@ -7,4 +7,5 @@
 #import shortcircuit
 #import palindrome
 #import trickycounter
-import infty
+#import infty
+import tree
