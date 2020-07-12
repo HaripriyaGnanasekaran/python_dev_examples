@@ -1,4 +1,4 @@
-binary_tree = [
+image = [
   [0,0,0,1,0,0,0],
   [0,0,1,1,1,0,0],
   [0,1,1,1,1,1,0],
@@ -7,8 +7,8 @@ binary_tree = [
   [0,0,0,1,0,0,0]
 ]
 
-for stacks in binary_tree:
-  leaves=[]
-  for bits in stacks:
-    leaves.append(" ") if bits ==0 else leaves.append("*")
-  print(''.join(leaves))
+for stacks in image:
+  dots=[]
+  for pixels in stacks:
+    dots.append(" ") if pixels ==0 else dots.append("*")
+  print(''.join(dots))
