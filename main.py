@@ -11,4 +11,4 @@
 #import tree
 import advanced.functions as fn
 
-fn.printer('Ram', ' :) ')
+fn.printer('Marirs', '\U0001f600')
