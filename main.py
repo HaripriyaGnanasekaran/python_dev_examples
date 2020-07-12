@@ -11,5 +11,5 @@
 #import tree
 import advanced.functions as fn
 
-lister = [10,435,345,'23488352',23456,213,'I dont know']
+lister = [-89,-86,-4,-56,-124,-2]
 print(fn.highest_even(lister))

@@ -29,12 +29,12 @@ def highest_even(x):
     If contains float always return floats are never odd or even etc.
   '''
   try:
-    num=0
+    xeven = []
     for item in x:
       integer = int(item)
-      if even(integer) and integer > num:
-        num=integer
-    return num
+      if even(integer):
+        xeven.append(integer)
+    return max(xeven)
   except:
     return ('What have you done! List items can not be made into integers') 
 
