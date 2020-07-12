@@ -10,19 +10,17 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = Image.open('marirs.jpg').convert('L')
-plt.imshow(img,cmap='BuPu')
-plt.show()
-input('continue')
+img = Image.open('players.jpg').convert('L')
+
 
 image = np.array(img)
 image = ~image  # invert B&W
-image[image > 0] = 1
+#image[image > 100] = 1
 
 
 
 print(image.shape)
-plt.imshow(image)
+plt.imshow(image,cmap='Greys')
 plt.show()
 input('do we run?')
 
